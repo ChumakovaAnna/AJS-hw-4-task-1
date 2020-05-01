@@ -52,7 +52,8 @@
   "homepage": "https://github.com/ChumakovaAnna/AJS-hw-4-task-1#readme",
   "husky": {
     "hooks": {
-      "pre-commit": "npm run lint"
+      "pre-commit": "npm run lint && npm test",
+      "pre-push": "npm test"
     }
   }
 }
