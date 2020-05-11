@@ -16,5 +16,14 @@
         "sourceType": "module"
     },
     "rules": {
+        "no-restricted-syntax": [
+            "error",
+            "LabeledStatement",
+            "WithStatement"
+        ],
+        "quotes": [
+            "error",
+            "double"
+        ]
     }
 }
